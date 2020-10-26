@@ -1,38 +1,108 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header{
+  width: 100%;
+  height: 60px;
+  background-color: lightgoldenrodyellow;
+  display: flex;
+}
+.header img{
+  height: 9vh;
+	margin-left: 4px;
+  padding: 2px;
+} 
+.header h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 380px;
+}
+.wada_note{
+  width: 40%;
+  margin: 30px;
+  margin-left: 390px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
   text-align: center;
+  min-height: 180px;
+  background:#ffffff;
+  box-shadow:2px 2px 20px rgba(0,0,0,.40);
+  border-radius:20px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.wada_form{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.wada_form input {
+  font-weight: 800;
+  text-transform: capitalize;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.in{
+  border: none;
+  outline: none;
+  padding:10px 4px;
+  font-size: 2rem;
+  resize: vertical;
+  width:inherit;
+  height: inherit;
+  max-height:200px;
+}
+.plus{
+  padding: 8px;
+  font-size: 35px;
+  width: fit-content;
+  display: flex;
+  justify-content: right;
+  margin: 10px 5px 10px auto;
+  border-radius: 50%;
+  background-color: greenyellow;
+  cursor: pointer;
+}
+.plus:hover{
+  background-color: gold;
+}
+.chota_note{
+  display: grid;
+  grid-template-columns: repeat(3, 280px);
+  grid-gap: 4rem;
+  
+}
+.f1{
+  text-align: center;
+  min-height: 180px;
+  background:#ffffff;
+  box-shadow:2px 2px 20px rgba(0,0,0,.40);
+  border-radius:20px;
+  margin: 10px;
+}
+.del{
+  display: flex;
+  justify-content: right;
+  margin: 10px 5px 10px auto;
+  border-radius: 50%;
+  background-color: burlywood;
+  cursor: pointer;
+  margin-right: 15px;
+  font-size: 35px;
+}
+.del:hover{
+  background-color: red;
+}
+.f1 h1{
+  text-transform: capitalize;
+}
+.f2{
+  outline: none;
+  margin: 8px;
+  max-height: 150px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4, 280px);
+  grid-gap: 4rem;
 }

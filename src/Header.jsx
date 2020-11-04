@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <div className="header">
             <img src={SVG} alt="logo"/>
-            <h1>Google Keep App Clone</h1>
+            <h1>Google Notes App Clone</h1>
             
         </div>
     )

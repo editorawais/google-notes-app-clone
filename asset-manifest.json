@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/google-notes-app-clone/static/css/main.ab6eae2a.chunk.css",
+    "main.js": "/google-notes-app-clone/static/js/main.11ce2628.chunk.js",
+    "main.js.map": "/google-notes-app-clone/static/js/main.11ce2628.chunk.js.map",
+    "runtime-main.js": "/google-notes-app-clone/static/js/runtime-main.1ef95bb8.js",
+    "runtime-main.js.map": "/google-notes-app-clone/static/js/runtime-main.1ef95bb8.js.map",
+    "static/js/2.75b3fe92.chunk.js": "/google-notes-app-clone/static/js/2.75b3fe92.chunk.js",
+    "static/js/2.75b3fe92.chunk.js.map": "/google-notes-app-clone/static/js/2.75b3fe92.chunk.js.map",
+    "index.html": "/google-notes-app-clone/index.html",
+    "precache-manifest.d0e99d86ddb95d7ce66d40463ac0bf35.js": "/google-notes-app-clone/precache-manifest.d0e99d86ddb95d7ce66d40463ac0bf35.js",
+    "service-worker.js": "/google-notes-app-clone/service-worker.js",
+    "static/css/main.ab6eae2a.chunk.css.map": "/google-notes-app-clone/static/css/main.ab6eae2a.chunk.css.map",
+    "static/js/2.75b3fe92.chunk.js.LICENSE.txt": "/google-notes-app-clone/static/js/2.75b3fe92.chunk.js.LICENSE.txt",
+    "static/media/react.svg": "/google-notes-app-clone/static/media/react.dd717418.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1ef95bb8.js",
+    "static/js/2.75b3fe92.chunk.js",
+    "static/css/main.ab6eae2a.chunk.css",
+    "static/js/main.11ce2628.chunk.js"
+  ]
+}
